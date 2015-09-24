@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1EB421A41BA23A8A00D11CCD /* MainScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB421A31BA23A8A00D11CCD /* MainScene.swift */; };
 		5B121030197484FA004C1E1D /* FlappySwiftActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B12102F197484FA004C1E1D /* FlappySwiftActivity.m */; };
 		5B121038197487F2004C1E1D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B737893E1807617C0076A88C /* AppDelegate.m */; };
 		7A40360419DDEE84007B6E8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A40360319DDEE84007B6E8F /* main.m */; };
@@ -150,6 +151,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1EB421A31BA23A8A00D11CCD /* MainScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainScene.swift; path = Source/MainScene.swift; sourceTree = "<group>"; };
 		5B12100919748273004C1E1D /* libEGL.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libEGL.so; path = /usr/lib/armv7a/libEGL.so; sourceTree = SDKROOT; };
 		5B12100F197483EE004C1E1D /* ic_launcher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_launcher.png; sourceTree = "<group>"; };
 		5B121011197483EE004C1E1D /* ic_launcher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_launcher.png; sourceTree = "<group>"; };
@@ -546,6 +548,7 @@
 			isa = PBXGroup;
 			children = (
 				DFE49C0E1B86DC5D006FD35E /* GamePlayScene.swift */,
+				1EB421A31BA23A8A00D11CCD /* MainScene.swift */,
 			);
 			name = Scenes;
 			sourceTree = "<group>";
@@ -626,6 +629,7 @@
 		B77F1B2617B978D7009739AE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = Apportable;
 				TargetAttributes = {
@@ -838,6 +842,7 @@
 				DFE49C0F1B86DC5D006FD35E /* GamePlayScene.swift in Sources */,
 				B73789871807631A0076A88C /* main.m in Sources */,
 				DFE49C141B86DC9A006FD35E /* Obstacle.swift in Sources */,
+				1EB421A41BA23A8A00D11CCD /* MainScene.swift in Sources */,
 				DFE49C121B86DC7A006FD35E /* Character.swift in Sources */,
 				5B121038197487F2004C1E1D /* AppDelegate.m in Sources */,
 				DFE49C161B86DCB3006FD35E /* Goal.swift in Sources */,
