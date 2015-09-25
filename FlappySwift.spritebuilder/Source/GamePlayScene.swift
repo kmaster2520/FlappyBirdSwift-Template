@@ -11,7 +11,7 @@ import UIKit
 class GamePlayScene : CCNode, CCPhysicsCollisionDelegate {
     var scrollSpeed: CGFloat = 100 //How fast the screen moves
     
-    weak var hero: Character? //Later initialized in MainScene.swift
+    weak var hero: Jeff? //Later initialized in MainScene.swift
     
     weak var _gamePhysicsNode: CCPhysicsNode! //Linked with Spritebuilder
     weak var _ground1: CCSprite! //Linked with Spritebuilder

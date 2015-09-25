@@ -24,7 +24,7 @@ class MainScene: GamePlayScene {
         userInteractionEnabled = true
         _gamePhysicsNode.collisionDelegate = self
         
-        hero = CCBReader.load("Character") as? Character
+        hero = CCBReader.load("Jeff") as? Jeff
         _gamePhysicsNode.addChild(hero)
         
         for _ in 1...3 {

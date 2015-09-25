@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1EB421A41BA23A8A00D11CCD /* MainScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB421A31BA23A8A00D11CCD /* MainScene.swift */; };
+		1EF15E311BB4B6D500515582 /* Jeff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF15E301BB4B6D500515582 /* Jeff.swift */; settings = {ASSET_TAGS = (); }; };
 		5B121030197484FA004C1E1D /* FlappySwiftActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B12102F197484FA004C1E1D /* FlappySwiftActivity.m */; };
 		5B121038197487F2004C1E1D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B737893E1807617C0076A88C /* AppDelegate.m */; };
 		7A40360419DDEE84007B6E8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A40360319DDEE84007B6E8F /* main.m */; };
@@ -152,6 +153,7 @@
 
 /* Begin PBXFileReference section */
 		1EB421A31BA23A8A00D11CCD /* MainScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainScene.swift; path = Source/MainScene.swift; sourceTree = "<group>"; };
+		1EF15E301BB4B6D500515582 /* Jeff.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Jeff.swift; sourceTree = "<group>"; };
 		5B12100919748273004C1E1D /* libEGL.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libEGL.so; path = /usr/lib/armv7a/libEGL.so; sourceTree = SDKROOT; };
 		5B12100F197483EE004C1E1D /* ic_launcher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_launcher.png; sourceTree = "<group>"; };
 		5B121011197483EE004C1E1D /* ic_launcher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_launcher.png; sourceTree = "<group>"; };
@@ -559,6 +561,7 @@
 				DFE49C111B86DC7A006FD35E /* Character.swift */,
 				DFE49C131B86DC9A006FD35E /* Obstacle.swift */,
 				DFE49C151B86DCB3006FD35E /* Goal.swift */,
+				1EF15E301BB4B6D500515582 /* Jeff.swift */,
 			);
 			name = Nodes;
 			sourceTree = "<group>";
@@ -839,6 +842,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EF15E311BB4B6D500515582 /* Jeff.swift in Sources */,
 				DFE49C0F1B86DC5D006FD35E /* GamePlayScene.swift in Sources */,
 				B73789871807631A0076A88C /* main.m in Sources */,
 				DFE49C141B86DC9A006FD35E /* Obstacle.swift in Sources */,
